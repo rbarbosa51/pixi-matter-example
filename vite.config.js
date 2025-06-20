@@ -6,5 +6,6 @@ export default defineConfig({
         open: true,
         port: 8001
     },
-    plugins: [tailwindcss()]
+    plugins: [tailwindcss()],
+    base: 'https://rbarbosa51.github.io/pixi-matter-example'
 })
